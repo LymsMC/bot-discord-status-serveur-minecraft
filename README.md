@@ -1,27 +1,22 @@
-# MC Server Status Bot
+# Bot de Statuts pour serveur Minecraft
 
-A simple Minecraft server status bot with auto updating embeds and client status.
-Spigot URL: https://www.spigotmc.org/resources/mc-discord-server-status-bot.96831/
+C'est un simple bot de statuts discord qui permet d'avoir les infos sur le serveur !
 
-# TODO:
-- Make the message reset once the status has switched to online.
-- Create a plugin so the status can update fast or learn more about Minecraft servers to remove caching.
-- Maybe add a pinging system when the status updates.
-
-# Start The Bot:
+# Démarrage du bot:
 1. Run `npm i`
 2. Run `node .` or `node index.js`
 
 # Installation:
-1. Run `npm i` if you havent already.
-2. Rename `.env.sample` to `.env`
-3. Rename `config.json.sample` to `config.json`
-4. Edit the `config.json` file to your liking (I recommend setting this up fully before you start the bot to minimise errors)
-5. Fill in the Discord bot's Token, Server IP, Port, Display IP and the channel where you want the message embed to go in the `.env` file.
-6. Start the bot using `node .`
-7. Stop the bot once the message has been sent.
-8. Copy the message ID and paste it into the .env file.
-9. Start the bot again.
+1. Lancer `npm i` si vous ne l'avez pas encore fait.
+2. Renommez le fichier `.env.sample` en `.env`.
+3. Renommez le fichier `config.json.sample` en `config.json`.
+4. Modifiez le fichier `config.json` à votre convenance (je recommande de le configurer complètement avant de démarrer le bot pour minimiser les erreurs).
+5. Remplissez le Token du bot Discord, l'IP du serveur, le port, l'IP d'affichage et le canal où vous voulez que le message soit intégré dans le fichier `.env`.
+6. Démarrez le robot en utilisant `node .`
+7. Arrêtez le robot une fois que le message a été envoyé.
+8. Copiez l'ID du message et collez-le dans le fichier .env.
+9. Redémarrez le bot.
 
 # Credits
 Made by <a href="https://github.com/Lukeos11">Lukeos11</a> with ♥ for Hyperbolt and edited for the world to use! 😀
+Fork by <a href="https://github.com/LymsMC">LymsMC</a> for CreativeSky !
